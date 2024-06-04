@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project1</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/project1.css">
+</head>
+<body>
+    <nav id="navbar">
+        <p><b>side bar</b></p>
+        <a href="index.html">📰돌아가기</a><br><br>
+        <a href="#about">📰소개</a><br>
+        <a href="#stage1">🕹️stage1</a><br>
+        <a href="#stage2"> 🕹️stage2</a><br>
+        <a href="#stage3">🕹️stage3</a><br>
+        <a href="#stage4">🕹️stage4</a><br><br>
+        <a href="#gitr"><img src="img/code.png" width="15px" height="15px">세부사항</a>
+</nav>
+<main id="main">
+    <header id="header">
+        <div id="header-div">
+            <h1>Project1 - 부산헹</h1>
+        </div>
+        <div id="header-div23">
+            <div id="header-div2">
+                <p>20242936호 6월3일 창간</p>
+            </div>
+            <div id="header-div3">
+                <p>xxxx년xx월xx일수요일</p>
+            </div>
+        </div>
+    </header>
+
+    <h1 class="stitle" id="about">게임소개</h1>
+    <section id="about-container">
+        <div id="about-text">   
+                <p>부산헹은 1학년 1학기 C언어를 공부하는 수업인 프로그래밍 실습 수업에 진행한 프로젝트 입니다.<p>
+                <p>C언어로 만들어진 게임이며, 마동석을 조작하여 좀비들로부터 시민들을 기차 밖으로 탈출시키면 승리하는 게임입니다.</p>
+                <p>게임은 총 4스테이지로 이루어져 있으며, 전반적인 게임의 진행방식은 각 스테이지별로 크게 다르지 않습니다.</p>
+                <p>그럼 게임의 1스테이지부터 4스테이지까지 설명드리겠습니다.</p>
+        </div>
+    </section>
+
+    <h1 class="stitle" id="stage1">stage1</h1>
+    <div id="stage1nav" class="stagebuts">
+        <button id="stage1bt1">1</button>
+        <button id="stage1bt2">2</button>
+        <button id="stage1bt3">3</button>
+        <button id="stage1bt4">4</button>
+        <button id="stage1bt4">5</button>
+        <button id="stage1bt4">6</button>
+    </div>
+    <section class="stage-container">   
+        <img src="img/proj1img/st1-1.png" id="stage1-img">
+        <div class="stage-text" id="stage1-text">   
+            <p>1. 게임 시작전</p>
+            <br>
+            <p>플레이어는 기차의 길이, 마동석의 체력, 좀비가 이동할 확률</p>
+            <p>위의 요소를 입력하면 게임이 시작됩니다. 기차가 생성되며, </p>
+            <p>시민, 좀비, 마동석이 기차위에 생성됩니다.</p>
+            <p>유닛들의 위치는 다음과 같습니다.</p>
+            <br>
+            <p>시민 : 기차끝칸 - 5</p>   
+            <p>좀비 : 기차끝칸 - 3</p>
+            <p>마동석 : 기차 끝칸 -2</p>
+        </div>
+    </section>
+
+    
+    <h1 class="stitle" id="stage2">stage2</h1>
+    <div id="stage2buts" class="stagebuts">
+        <button id="stage1bt1">1</button>
+        <button id="stage1bt2">2</button>
+    </div>
+    <section class="stage-container">
+        <img src="img/proj1img/st2-1.png" id="stage2-img">
+        <div class="stage-text" id="stage2-text">   
+            <p>1. 새로운 유닛 : 빌런</p>
+            <br>
+            <p>스테이지2에서는 새로운 유닛인 빌런이 존재합니다.</p>
+            <p>빌런의 초기위치는 시민의 바로 뒤이며, 시민이 이동하면 함께</p>
+            <p>움직입니다.</p>
+        </div>
+    </section>
+
+    <h1 class="stitle" id="stage3">stage3</h1>
+    <div id="stage3buts" class="stagebuts">
+        <button id="stage1bt1">1</button>
+        <button id="stage1bt2">2</button>
+    </div>
+    <section class="stage-container">
+        <img src="img/proj1img/st3-1.png" id="stage3-img">
+        <div class="stage-text" id="stage3-text">   
+            <p>2. 게임종료</p>
+            <br>
+            <p>시민이 좀비에게 공격당하게되면, 공격당한 시민은 삭제시킵니다.</p>
+            <p>시민이 탈출하면, 탈출한 시민은 삭제되며 기차 안에 남은 시민이</p>
+            <p>없을때 까지 게임은 진행됩니다. 시민의 수에 변동이 생기게되면</p>
+            <p>사라진 시민의 번호를 표시하며, 남은 시민의 수를 표시합니다.</p>
+            <p>탈출한 시민이 1명이라도 존재할 경우, 시민이 승리합니다.</p>
+        </div>
+    </section>
+       
+    <h1 class="stitle" id="stage4">stage4</h1>
+    <div id="stage4buts" class="stagebuts">
+        <button id="stage1bt1">1</button>
+        <button id="stage1bt2">2</button>
+    </div>
+    <section class="stage-container">
+        <img src="img/proj1img/st4-1.png" id="stage4-img">
+        <div class="stage-text" id="stage4-text">   
+            <p>스테이지 4: 좀비들</p>
+            <br>
+            <p>초기상태는 스테이지 3와 같이 여러명의 시민들이 존재합니다.</p>
+            <p>스테이지 3과의 차이점은 좀비가 시민을 공격할 시, 시민이 삭제</p>
+            <p>되는것이 아닌 강화좀비로 바뀌게 됩니다. 강화좀비는 1턴마다 </p>
+            <p>움직일 수 있으며 시민과 같이 왼쪽에서부터 번호를 부여받습니다.</p>
+            <p>마찬가지로, </p>
+            <p>탈출한 시민이 1명이라도 존재할 경우 시민이 승리합니다.</p>
+            <br>
+            <p>(텍스트는 한장입니다.)</p>
+        </div>
+    </section>
+    <h1 class="stitle" id="gitr">세부사항</h1>
+    <section style="padding-left: 20px;">
+        <a href="https://github.com/KohSeungJae/BusanHang" >
+            <img src="img/code.png" id="stage4-img" width="50px" height="50px">
+        </a>
+        <div class="stage-text" id="stage4-text">  
+            <p>더 자세한 내용이 궁금하시다면 깃허브 저장소를 방문해 주세요</p>
+            <p>(배너를 클릭하면 저장소로 이동합니다.)</p>
+        </div>
+    </section>
+    </main>
+
+        <script src="js/time.js"></script>
+        <script src="js/load.js"></script>
+        <script src="js/st1button.js"></script>
+        <script src="js/st2button.js"></script>
+        <script src="js/st3button.js"></script>
+        <script src="js/st4button.js"></script>
+</body>
+</html>

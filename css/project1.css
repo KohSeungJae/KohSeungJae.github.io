@@ -1,0 +1,57 @@
+
+#about-container{
+    display: flex;
+    margin: 0 20px;
+    border-bottom: solid 3px;
+}
+#about-img{
+    padding-left: 30px;
+    padding-top: 40px;
+    margin-bottom: 2%;
+}
+#about-text{
+    width: 1000px;
+    padding-left: 0;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    /*border: solid 2px;*/
+    text-align: left;
+}
+
+.stage-container{
+    display: flex;
+    margin: 0 20px;
+    border-bottom: solid 3px;
+}
+.stage-container img{
+    margin-bottom: 30px;    
+    width:450px;
+    height:400px;
+}
+.stage-text{
+    width: 50%;
+    padding-left: 0;
+    padding-top: 20px;
+    margin-left: 15%;
+    margin-right: 20px;
+    margin-bottom: 30px;
+
+    text-align: left;
+}
+
+/*케러셀*/
+.stagebuts{
+    margin: 2px 20px;
+    width: 450px;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+}   
+.stagebuts button{
+    box-shadow: 2px 1px;
+    border-radius: 5px;
+    color: black;
+    margin: 5px;
+}

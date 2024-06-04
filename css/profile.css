@@ -1,0 +1,80 @@
+#profile-container{
+    display: flex;
+    margin: 0 20px;
+    border-bottom: solid 3px;
+}
+#profile-img{
+    padding-left: 30px;
+    padding-top: 40px;
+    margin-bottom: 2%;
+}
+#profile-text{
+    width: 1000px;
+    padding-left: 0;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /*border: solid 2px;*/
+    text-align: left;
+}
+
+
+#skills-container{
+    display: flex;
+    margin: 0 20px;
+    border-bottom: solid 3px;
+}
+#skills-text1{
+  /* border: solid 1px;*/
+   padding-left: 2%;
+   width:   50%;
+   text-align: left;
+}
+#skills-text2{
+  width: 50%;
+}
+
+/*프로그래밍 언어 사진 캐러셀*/
+.carousel{
+    display: flex;
+    justify-content: center;
+}
+#carouselimg{
+    width: 300px;
+    height: 250px;
+}
+.arrowl {
+    font-size:7em;
+    padding: 45px 0;
+    color:#222;
+    opacity:0.5;
+}
+.arrowl:hover{
+    transform: translateX(-5px);
+}
+.arrowr {
+    font-size:7em;
+    padding: 45px 0;
+    color:#222;
+    opacity:0.5;
+}
+.arrowr:hover{
+    transform: translateX(5px);
+}
+#langh3{
+    text-align: center;
+}
+
+#project-contanior,
+#work-container
+{
+    border-bottom: solid 3px;
+    margin: 30px 20px;
+}
+#proj-text{
+    padding-left: 2%;
+    text-align: left;
+}
+#proj-text a p:hover{
+    transform: translateY(-3px);
+}
