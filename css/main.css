@@ -30,8 +30,7 @@ body{
 }
 #main{
     background-color: #F5F4F0;
-    width:  70%;
-    height: 100%;
+    width: 1100px;
 
     display: inline-block;
     background-image: url("/img/newsp.png");
@@ -72,11 +71,3 @@ body{
     margin-left: 20px;
     margin-right: 800px;
 }
-
-
-
-
-
-
-
-
