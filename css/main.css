@@ -11,8 +11,8 @@ html{
 body{
     text-align: center;
     background-color:  #F5F4F0;
-    background-image: url("/img/back4.jpg");
-
+    background-image: url("/img/back5.png");
+    background-size: contain;
 }
 #navbar{
     text-align: left;
@@ -73,3 +73,11 @@ body{
     margin-left: 20px;
     margin-right: 800px;
 }
+
+
+
+
+
+
+
+
