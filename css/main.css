@@ -11,6 +11,8 @@ html{
 body{
     text-align: center;
     background-color:  #F5F4F0;
+    background-image: url("/img/back4.jpg");
+
 }
 #navbar{
     text-align: left;
@@ -30,7 +32,7 @@ body{
 }
 #main{
     background-color: #F5F4F0;
-    width: 1100px;
+    width: 1000px;
 
     display: inline-block;
     background-image: url("/img/newsp.png");
