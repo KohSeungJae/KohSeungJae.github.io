@@ -1,8 +1,8 @@
 const arrows = document.querySelectorAll(".carousel div");
 const carouseimg = document.querySelector("#carouselimg");
 
-const pics = ["python.png",`C.png`, "javascript.png","html5.png","css.png"];
-const names = [`Python`,`C언어`,`JavaScript`,`HTML`,`CSS`];
+const pics = [`C.png`, "python.png","javascript.png","html5.png","css.png"];
+const names = [`C언어`,`Python`,`JavaScript`,`HTML`,`CSS`];
 
 let i = 0;
 
