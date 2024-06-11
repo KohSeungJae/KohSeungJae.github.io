@@ -1,5 +1,5 @@
 <h1>프로필 웹 제작</h1>
-  <h2>github 주</h2>
+  <h2>github 주소</h2>
   https://github.com/KohSeungJae/KohSeungJae.github.io.git
   <h2>구성요소</h2>
   <p>신문을 컨셉으로로 한 웹 페이지. 웹페이지는 직접 제작하였으며 구성요소로는 소개, 스킬, 프로젝트, 희망 직무가 있다.</p>
